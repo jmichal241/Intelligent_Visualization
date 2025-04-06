@@ -1,0 +1,9 @@
+📊 Model Evaluation Summary
+===========================
+Total Ground Truth Objects : 194
+Total Predicted Objects    : 177
+Correct Detections         : 150/194
+Wrong Detections           : 27
+Missed Detections          : 44
+Detection Accuracy         : 77.32%
+Average IoU of Matches     : 86.66%
