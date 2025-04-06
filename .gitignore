@@ -1,0 +1,24 @@
+# Ignore the whole dataset folder...
+dataset/
+# ...except for data.yaml
+!dataset/data.yaml
+
+# Ignore weight files
+*.pt
+
+# Ignore plots
+*.png
+
+# Ignore runs from training
+runs/
+
+# Ignore virtual environment
+yolovenv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
