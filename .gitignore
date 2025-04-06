@@ -22,3 +22,6 @@ Thumbs.db
 # Ignore Python cache
 __pycache__/
 *.pyc
+# Ignore comparison results and stats
+comparizon_results/
+results.txt
