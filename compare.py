@@ -3,9 +3,9 @@ import cv2
 import numpy as np
 
 # Define directories
-test_images_dir = "dataset/test_subset/images"
-gt_labels_dir = "dataset/test_subset/labels"
-pred_labels_dir = "runs/detect/predict13/labels"
+test_images_dir = "dataset/test_subset_resized/images"
+gt_labels_dir = "dataset/test_subset_resized/labels"
+pred_labels_dir = "runs/detect/predict15/labels"
 output_dir = "comparison_results"
 def compute_iou(box1, box2):
     """

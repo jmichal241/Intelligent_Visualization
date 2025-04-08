@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load training results
-log_path = "runs/detect/train10/results.csv"  # Change this if needed
+log_path = "runs/detect/train12/results.csv"  # Change this if needed
 df = pd.read_csv(log_path)
 
 # Plot loss
